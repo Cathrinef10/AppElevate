@@ -4,29 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skabeloner</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        .container {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background: blue;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-
-    <header>
-        <h1>📂 Skabeloner</h1>
-    </header>
-
-    <main>
-        <p>Her kan du finde skabeloner til dine projekter:</p>
-
-        <ul>
-            <li><a href="skabelon1.pdf" download>📄 Download Skabelon 1 (PDF)</a></li>
-            <li><a href="skabelon2.docx" download>📄 Download Skabelon 2 (Word)</a></li>
-            <li><a href="skabelon3.pptx" download>📄 Download Skabelon 3 (PowerPoint)</a></li>
-        </ul>
-
-        <a href="index.html" class="cta-button">Tilbage til forsiden</a>
-    </main>
-
-    <footer>
-        <p>Lavede med ❤️ af Cathrine Froulund</p>
-    </footer>
-
+    <div class="container">
+        <h2>Her kan du finde skabeloner til dine projekter:</h2>
+        <p>📄 <a href="skabelon1.pdf" download>Download Skabelon 1 (PDF)</a></p>
+        <p>📄 <a href="skabelon2.docx" download>Download Skabelon 2 (Word)</a></p>
+        
+        <a class="button" href="index.html">Tilbage til forsiden</a>
+    </div>
 </body>
 </html>
