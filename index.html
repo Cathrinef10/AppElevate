@@ -18,6 +18,16 @@
             padding: 20px;
             font-size: 24px;
         }
+        nav {
+            background: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+        }
         .container {
             max-width: 800px;
             margin: 50px auto;
@@ -38,11 +48,30 @@
             font-size: 14px;
             color: gray;
         }
+        .button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
     </style>
 </head>
 <body>
 
     <header>🚀 AppElevate - Skabeloner & Inspiration</header>
+
+    <nav>
+        <a href="#">Hjem</a>
+        <a href="#skabeloner">Skabeloner</a>
+        <a href="#kontakt">Kontakt</a>
+    </nav>
 
     <div class="container">
         <h2>Velkommen til AppElevate</h2>
@@ -55,7 +84,19 @@
             <li>💎 Månedssabonnement for premium funktioner</li>
         </ul>
 
+        <a href="#skabeloner" class="button">Se Skabeloner</a>
+
         <p class="footer">Lavet med ❤️ af Cathrine Froulund</p>
+    </div>
+
+    <div id="skabeloner" class="container">
+        <h2>📂 Skabeloner</h2>
+        <p>Her vil du finde en samling af skabeloner til dine projekter.</p>
+    </div>
+
+    <div id="kontakt" class="container">
+        <h2>📩 Kontakt os</h2>
+        <p>Har du spørgsmål? Send os en e-mail på <strong>kontakt@appelevate.dk</strong></p>
     </div>
 
 </body>
