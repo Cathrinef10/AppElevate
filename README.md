@@ -6,4 +6,4 @@ En platform for content creators, der giver skabeloner, inspiration og idéer ti
 - AI-genererede idéer og inspiration  
 - Månedsabonnement for premium features  
 
-**Lavet med ❤️ af [Dit Navn]**  
+**Lavet med ❤️ af Cathrine Froulund**  
